@@ -1,0 +1,95 @@
+.header {
+  background: #EBEBEB;
+  padding: 17px 70px 15px 70px;
+  font-family: Jost, 'sans-serif';
+  position: sticky;
+  top:0;
+  z-index: 20;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.07), 0px 7px 14px 0px rgba(65, 69, 88, 0.10);
+
+  .mainWrapper {
+    margin: auto;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      color: #2B8ADE;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+
+    .navigationContainer {
+      gap: 30px;
+      align-items: center;
+      display: flex;
+
+      .link {
+        color: #878787;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+
+        &:hover {
+          color: #A9A9A9;
+        }
+      }
+
+      .activeLink {
+        color: #2B8ADE;
+      }
+    }
+
+    .navigationProfileContainer {
+      gap: 15px;
+      align-items: center;
+      display: flex;
+
+      .circle {
+        width: 30px;
+        height: 30px;
+        background: #39405A;
+        overflow: hidden;
+        border-radius: 30px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .text {
+          color: #FFF;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+
+      .svg:hover {
+        cursor: pointer;
+      }
+
+      .link {
+        color: #878787;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+
+        &:hover {
+          color: #2B8ADE;
+        }
+      }
+
+      .activeLink {
+        color: #2B8ADE;
+      }
+    }
+  }
+}
